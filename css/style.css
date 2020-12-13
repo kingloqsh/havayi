@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+img.d-block {
+    width: 30%;
+}
+
+body {
+    height: 1000px;
+}
+@media (max-width:900px) {
+    img.d-block{
+            width: 50%;
+    }
+        
+}
+.dropdown {
+    transition: 1.5s;
+}
+
+.card {
+    display: inline-block;
+}
+
+
+
+nav {
+    height: 80px;
+}
+
+
+.parent {
+    background: var(--blue);
+    height: 75px;
+    width: 100%;
+}
+
+.parent img {
+    display:inline-block;
+}
